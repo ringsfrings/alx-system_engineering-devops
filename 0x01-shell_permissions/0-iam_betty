@@ -1,9 +1,2 @@
 #!/bin/bash
-str="betty"
-CURRENT=$USER
-echo "$CURRENT"
-if [ "$CURRENT" != "$str" ]; then
-        su - betty
-else
-        echo "$?"
-fi
+su - betty
